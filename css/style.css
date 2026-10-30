@@ -1,0 +1,110 @@
+:root {
+  --bg:        #0b1f14; /* тёмно-зелёная плата */
+  --bg-2:      #122a1c; /* чуть светлее блоки */
+  --copper:    #b87333; /* дорожки / акценты */
+  --amber:     #ffb000; /* текст как CRT/UART */
+  --text:      #d7e7d0; /* основной текст */
+  --muted:     #7a9a82; /* вторичный текст */
+  --line:      #2a4a35; /* разделители */
+  --danger:    #ff5a36; /* ошибки, «отвалилось» */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+* {
+    background-color: #0b1f14;
+    color: #d7e7d0;;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    border-bottom: 1px solid #2a4a35;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    z-index: 99;
+    gap: 24px;
+    
+}
+
+.menu a {
+    margin-top: 24px;
+    text-decoration: none;
+}
+
+.post {
+    margin: 0px auto;
+    flex: 1;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+.post h2 {
+    margin: 0px auto;
+    text-align: center;
+}
+
+.post p {
+    text-align: justify;
+    text-indent: 1.5em;
+}
+
+.lenta {
+    flex-direction: column;
+    gap: 24px;
+    flex: 1;
+}
+
+.lenta-post {
+    border-bottom: 1px solid #2a4a35;
+    max-width: 720px;
+    padding: 16px;
+    margin: 0px auto;
+    margin-bottom: 24px;
+}
+
+.footer-class {
+    margin-top: auto;
+    background-color: #122a1c;
+}
+
+.download-file {
+    padding-bottom: 24px;
+    padding-top: 24px;
+    border-top: 1px solid #2a4a35;
+    border-bottom: 1px solid #2a4a35;
+    margin-bottom: 24px;
+}
+
+.download-file a {
+    margin: 24px;
+    
+    text-decoration: none;
+}
+
+
+
+
