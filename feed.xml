@@ -2,15 +2,15 @@
 <rss version="2.0">
   <channel>
     <title>cqtx.ru</title>
-    <link>https://cqtx.ru</link>
-    <description>Новая публикация</description>
+    <link>https://cqtx.ru/</link>
+    <description>Новые публикации</description>
     <language>ru</language>
 
     <item>
       <title>Термометр на ESP32</title>
       <link>https://cqtx.ru/post_1.html</link>
       <guid>https://cqtx.ru/post_1.html</guid>
-      <description>О том как я впервый раз притронулся к embedded.</description>
+      <description>О том, как я впервые прикоснулся к embedded.</description>
       <pubDate>Mon, 02 Nov 2026 12:00:00 +0300</pubDate>
     </item>
 
